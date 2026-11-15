@@ -1,0 +1,90 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+
+# Frontend build and test output
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.angular/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+out-tsc/
+bazel-out/
+.sass-cache/
+typings/
+__screenshots__/
+connect.lock
+libpeerconnection.log
+testem.log
+
+# Package-manager and tool caches
+.npm/
+.yarn/*
+!.yarn/patches/
+!.yarn/plugins/
+!.yarn/releases/
+!.yarn/sdks/
+!.yarn/versions/
+.pnpm-store/
+.vite/
+.turbo/
+.cache/
+
+# Java / Spring Boot build output
+target/
+build/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+!.env.template
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+*.bak
+
+# IDEs and editors
+.idea/
+.vscode/
+.history/
+.project
+.classpath
+.settings/
+.c9/
+*.launch
+*.sublime-workspace
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
